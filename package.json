@@ -1,0 +1,37 @@
+{
+  "name": "S",
+  "version": "0.0.1",
+  "private": true,
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@shoutem/ui": "^0.23.4",
+    "axios": "^0.18.0",
+    "nepali-calendar-js": "^1.0.4",
+    "react": "16.5.0",
+    "react-native": "0.57.0",
+    "react-native-calendars": "^1.21.0",
+    "react-native-router-flux": "^4.0.4",
+    "react-native-vector-icons": "^5.0.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "babel-jest": "23.6.0",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.45.4",
+    "react-test-renderer": "16.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
